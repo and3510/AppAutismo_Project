@@ -1,15 +1,8 @@
-import { Text, View } from 'react-native';
+import  Home  from './src/screens/home';
 
 export default function App() {
   return (
-    <View>
-      <Text>
-      ola
-      </Text>
-      <Text>
-      oi
-      </Text>
-    </View>
+      <Home />
   );
 
 }
