@@ -3,7 +3,7 @@
 
 ## Ideias para o projeto sobre autismo:
 --- 
-- #### Aplicativo para o desenvolvimento de <br> habilidades de crianças com TEA.
+- #### Aplicativo para o desenvolvimento de habilidades de crianças com TEA.
 
     ##### Criação da Conta:
     1. Nickname(criança).
