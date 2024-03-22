@@ -60,9 +60,9 @@
 
     ##### Tipos de jogos para o aprendizado:
     - Memorização:
-    >> Quebra Cabeças
-    >> Imagens Coisas/Animais
-    >> Jogos de Encaixe 
+    1. Quebra Cabeças;
+    2. Imagens Coisas/Animais;
+    3. Jogos de Encaixe.
     - Concentração:
-    >> Jogos Sonoros
-    >> "Jogo do quadrado"
+    1. Jogos Sonoros;
+    2. "Jogo do quadrado".
