@@ -58,9 +58,11 @@
     para o usuário.
     ----
 
-    ##### Tipos de jogos que teriam no aplicativo
-    1. Quebra Cabeça
-    2. Jogos Sonoros
-    3. Jogos de Encaixe
-    4. Jogos de Memorização
-    5. Jogos de Concentração
+    ##### Tipos de jogos para o aprendizado:
+    - Memorização:
+    >> Quebra Cabeças
+    >> Imagens Coisas/Animais
+    >> Jogos de Encaixe 
+    - Concentração:
+    >> Jogos Sonoros
+    >> "Jogo do quadrado"
