@@ -5,6 +5,14 @@
 --- 
 - #### Aplicativo para o desenvolvimento de habilidades de crianças com TEA.
 
+    ##### Anotações:
+    - Título: Capacidade de Aprendizagem usando aplicativos móveis para autistas
+    - Objetivo Geral: Buscar soluções para o aprendizado do autista 
+
+    - Público Alvo: crianças entre 4 e 6 anos 
+
+
+
     ##### Criação da Conta:
     1. Nickname(criança).
     2. Email(adulto).
