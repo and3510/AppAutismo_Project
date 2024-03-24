@@ -11,8 +11,6 @@
 
     - Público Alvo: crianças entre 4 e 6 anos 
 
-
-
     ##### Criação da Conta:
     1. Nickname(criança).
     2. Email(adulto).

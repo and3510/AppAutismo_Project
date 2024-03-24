@@ -1,17 +1,24 @@
-import {Text, View, TextInput, TouchableOpacity } from 'react-native';
+import {Text, View, TextInput, TouchableOpacity, FlatList } from 'react-native';
 
 import { style } from './styles';
+import Participantes from '../../components/participantes';
 
 export default function Home() {
 
+    const participantes = ['Gustavo', 'Vini', 'Diego', 'Anderson', 'Vinicius', 'Daniel', 'Joao'];
+
     function handleParticipantAdd() {
-      console.log("Voce clicou no botão de Adicionar")
+      console.log("Voce clicou no botão de Adicionar");
+    }
+
+    function handleParticipantRemove(name: string) {
+      console.log(`Voce clicou em remove o aluno ${name}`);
     }
 
     return (
       <View style={style.container}>
         <Text style={style.texto}>
-          Titulo do Aplicativo
+          Cadastro
         </Text>
         <Text style={style.descricao}>
           Username:
@@ -48,7 +55,31 @@ export default function Home() {
           
         </TouchableOpacity>
           
-         </View>
+        </View>
+
+        <FlatList
+        data={participantes}
+        keyExtractor={item => item}
+        renderItem={({ item }) => (
+          <Participantes
+          key={item}
+          name={item}
+          onRemove={() => handleParticipantRemove("gustavo")}
+          />
+        )
+      
+      }
+      showsVerticalScrollIndicator={false}
+      ListEmptyComponent={() => (
+        <Text style={style.listEmptyText}>
+            Ninguém Aqui
+        </Text>
+      )}
+        
+
+        
+        />
+        
 
       </View>
     ); 

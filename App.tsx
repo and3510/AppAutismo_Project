@@ -1,3 +1,4 @@
+import Participantes from './src/components/participantes';
 import  Home  from './src/screens/home';
 
 export default function App() {

@@ -56,6 +56,12 @@ export const style = StyleSheet.create(
     form: {
         width: '100%',
         flexDirection: 'row'
+    },
+    listEmptyText: {
+        padding: 20,
+        color: "#fff",
+        fontSize: 20,
+        textAlign: "center"
     }
 
     
