@@ -1,4 +1,3 @@
-
 # Projeto sobre o Autismo:
 
 ## Ideias para o projeto sobre autismo:
