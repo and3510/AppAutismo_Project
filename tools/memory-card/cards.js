@@ -62,7 +62,7 @@ function startGame() {
     }
 
     console.log(board);
-    setTimeout(hideCards, 5000);
+    setTimeout(hideCards, 1000);
 }
 
 function hideCards() {
