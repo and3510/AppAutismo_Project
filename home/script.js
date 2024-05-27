@@ -114,3 +114,12 @@ button_theme_gray.addEventListener('click', function() {
         bodyElement.classList.remove('gray');
     }
 });
+
+
+var som = document.getElementById("som");
+
+$(".transition-all header").mouseover(function(){
+    som.pause();
+    som.currentTime = 0;
+    som.play();
+});
