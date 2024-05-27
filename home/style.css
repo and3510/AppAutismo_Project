@@ -1,137 +1,235 @@
+body {
+    height: 100%;
+    overflow: hidden
+}
+
 header {
     display: flex;
     justify-content:flex-end;
     width: 100%;
-    height: 100%;
-    padding-bottom: 20px;
-    border-bottom: 1px solid gray;
+    height: 55px;
 }
 
 header button {
-    background-color: transparent;
-    border: transparent;
+    padding-bottom: 20px;
+    border-radius: 35px;
+    border: 1px solid;
+}
+
+header button:hover {
+    background-color: red;
 }
 
 header img {
-    width: 50px;
+    border: none;
+    border-radius: 25px;
+    width: 35px;
     margin-bottom: -16px;
-}
-
-header nav {
-    margin-right: 30px;
-    margin-top: 25px;
-}
-
-header nav a {
-    width: 100%;
-    margin-right: 10px;
-    text-decoration: none;
-    border: 2px solid gray;
-    padding: 5px;
-    border-radius: 3px 10px;
-    box-shadow: 3px 4px 5px gray;
-    color: black;
-    font-size: 20px;
-    transition: 0.3s;
-}
-
-header nav a:hover {
-    color: brown;
     padding: 7px;
-    margin: 15px;
+    transition: 0.75s;
 }
 
-#menu {
-    margin-top: 60px;
+
+
+#games a {
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: blueviolet;
+    margin-left: 20px;
+
+}
+
+#games a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+.fonte1 p {
+    font-size: 20px;
+}
+
+.fonte2 p {
+    font-size: 25px;
+}
+
+.fonte3 p {
+    font-size: 30px;
+}
+
+
+
+
+nav {
+    background-color: transparent;
+    width: 10%;
+    height: 100vh;
+    position: absolute;
+    top: -5px;
+    right: -200px;
+    transition: right 1s ease;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    border-bottom: 1px solid gray;
-    padding-bottom: 30px;
-    height: 100%;
 }
 
-
-#menu img {
-    width: 350px;
-    box-shadow: 12px 10px 10px gray;
-    border-radius: 100%;
-    border: 1px solid transparent;
-    min-width: 20px;
-    margin-bottom: 20px;
-    height: 350px;
-
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
-#novos {
-    padding: 50px;
-    border: 1px solid gray;
-    border-radius: 20px;
-    height: 100%;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    box-shadow: 8px 4px 5px gray;
+nav li {
+    padding: 20px;
+    padding-right: 0px;
 }
 
-#novos a {
-    color: black;
-    display: block;
+nav li button {
     text-decoration: none;
-    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    border-radius: 25px;
+    padding: 3px;
+    width: 100px;
+    border: 1px solid #222;
+    transition: 0.2s;
+    
 }
 
-#novos h1 {
-    margin-top: -20px;
+nav li button:hover {
+    background-color: rgb(17, 69, 182)
 }
 
-#pedentes {
-    flex-wrap: wrap;
-    padding: 50px;
-    border: 1px solid gray;
-    margin-right: 30px;
-    border-radius: 20px;
-    height: 100%;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    box-shadow: 8px 4px 5px gray;
+nav {
+    /* ... outros estilos ... */
+    position: absolute; /* Mantenha o posicionamento absoluto */
+    top: -5px;
+    /* Remova a propriedade left: -250px; */
+    transition: right 1s ease;
 }
 
-#pedentes a {
-    color: black;
-    padding: 5px;
+nav.active {
+    /* ... outros estilos para o menu ativo ... */
+    right: 185px; /* Exiba o menu na esquerda da tela */
+    top: -5px
+}
+
+
+#font-sidebar {
+    background-color: transparent;
+    width: 10%;
+    height: 100vh;
+    position: absolute;
+    top: 50px;
+    transition: top 1s ease;
+    display: flex;
+}
+
+#font-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: block;
+}
+
+#font-sidebar li {
+    padding: 20px;
+    margin-bottom: -20px;
+    padding-right: 0px;
+}
+
+#font-sidebar li button {
     text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    border-radius: 25px;
+    padding: 3px;
+    width: 100px;
+    border: 1px solid #222;
+    transition: 0.2s;
+    background-color: gray;
+    
 }
 
-#pedentes h1 {
-    margin-top: -20px;
+#font-sidebar li button:hover {
+    background-color: rgb(1, 214, 54);
+}
+
+#font-sidebar {
+    /* ... outros estilos ... */
+    position: absolute; /* Mantenha o posicionamento absoluto */
+    top: -120px;
+    /* Remova a propriedade left: -250px; */
+    transition: top 1s ease;
+}
+
+#font-sidebar.active {
+    /* ... outros estilos para o menu ativo ... */ /* Exiba o menu na esquerda da tela */
+    top: 50px
 }
 
 
-
-footer {
-    height: 100%;
-    width: 100%;
-    margin-left: 40px;
-
+#theme-sidebar {
+    background-color: transparent;
+    width: 10%;
+    height: 100vh;
+    position: absolute;
+    top: 50px;
+    transition: top 1s ease;
+    display: flex;
 }
 
-
-footer nav a {
-    text-decoration: none;
-    color: black;
+#theme-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: block;
-    font-size: small;
-    margin-bottom: 10px;
 }
 
-footer nav h2 {
-    display: inline-flex;
-    margin-bottom: 10px;
+#theme-sidebar li {
+    padding: 20px;
+    margin-bottom: -20px;
+    padding-right: 0px;
+}
+
+#theme-sidebar li button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    border-radius: 25px;
+    padding: 3px;
+    width: 100px;
+    border: 1px solid #222;
+    transition: 0.2s;
+    background-color: gray;
+    
+}
+
+#theme-sidebar li button:hover {
+    background-color: rgb(1, 214, 54);
+}
+
+#theme-sidebar {
+    /* ... outros estilos ... */
+    position: absolute; /* Mantenha o posicionamento absoluto */
+    top: -120px;
+    /* Remova a propriedade left: -250px; */
+    transition: top 1s ease;
+}
+
+#theme-sidebar.active {
+    /* ... outros estilos para o menu ativo ... */ /* Exiba o menu na esquerda da tela */
+    top: 50px;
+    right: 65px
 }
 
 
-.mode1 {
+.black {
     background-color: #222;
+    color: aliceblue;
 }
+
+
+
