@@ -2,17 +2,6 @@
 
 let currentTheme = 'normal'; // Tema inicial definido como claro
 
-toggleThemeButton.addEventListener('click', function() {
-    if (currentTheme === 'normal') {
-        currentTheme = 'mode';
-        bodyElement.classList.add('mode1');
-    } else {
-        currentTheme = 'normal';
-        bodyElement.classList.remove('mode1');
-    }
-});
-
-
 
 const menuButton = document.getElementById('toggleThemeButton');
 const sidebar = document.getElementById('sidebar');
@@ -82,7 +71,7 @@ button_fontes_30.addEventListener('click', function() {
     }
 });
 
-
+/* 
 const button_themes= document.getElementById('button-themes')
 const theme_sidebar = document.getElementById('theme-sidebar');
 
@@ -90,8 +79,10 @@ button_themes.addEventListener('click', function() {
     theme_sidebar.classList.toggle('active'); // Adiciona/remove a classe 'active'
 });
 
+*/
 
-const button_theme_black = document.getElementById('id_black')
+
+/* const button_theme_black = document.getElementById('id_black')
 
 button_theme_black.addEventListener('click', function() {
     if (currentTheme === 'normal' ) {
@@ -115,11 +106,4 @@ button_theme_gray.addEventListener('click', function() {
     }
 });
 
-
-var som = document.getElementById("som");
-
-$(".transition-all header").mouseover(function(){
-    som.pause();
-    som.currentTime = 0;
-    som.play();
-});
+*/

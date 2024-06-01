@@ -36,20 +36,34 @@ header img {
     transition: 0.75s;
 }
 
+#games {
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
 
 
 #games img {
     width: 300px;
-    margin-left: 20px;
     transition: 0.3s;
     box-shadow: 6px 3px 25px #222;
     border-radius: 10px;
+    padding: 10px;
     
 }
 
 #games img:hover {
     width: 320px;
     box-shadow: 6px 3px 35px  #222;
+    padding: 20px;
+    background-color: rgb(26, 127, 185);
+}
+
+#games a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -57,13 +71,10 @@ header img {
 
 
 
-.fonte1 p {
+.fonte1 a {
     font-size: 20px;
 }
 
-.fonte1 #games a {
-    font-size: 45px;
-}
 
 .fonte1 #games img  {
     width: 325px;
@@ -73,13 +84,10 @@ header img {
     width: 330px;
 }
 
-.fonte2 p {
+.fonte2 a {
     font-size: 25px;
 }
 
-.fonte2 #games a {
-    font-size: 60px;
-}
 
 .fonte2 #games img  {
     width: 335px;
@@ -90,13 +98,10 @@ header img {
 }
 
 
-.fonte3 p {
+.fonte3 a {
     font-size: 30px;
 }
 
-.fonte3 #games a {
-    font-size: 75px;
-}
 
 .fonte3 #games img  {
     width: 350px;
@@ -157,7 +162,7 @@ nav {
 
 nav.active {
     /* ... outros estilos para o menu ativo ... */
-    right: 185px; /* Exiba o menu na esquerda da tela */
+    right: 75px; /* Exiba o menu na esquerda da tela */
     top: -5px
 }
 
@@ -194,7 +199,7 @@ nav.active {
     width: 100px;
     border: 1px solid #222;
     transition: 0.2s;
-    background-color: gray;
+    background-color: rgb(194, 194, 194);
     
 }
 
@@ -213,7 +218,7 @@ nav.active {
 
 #font-sidebar.active {
     /* ... outros estilos para o menu ativo ... */ /* Exiba o menu na esquerda da tela */
-    top: 50px
+    top: 50px;
 }
 
 
