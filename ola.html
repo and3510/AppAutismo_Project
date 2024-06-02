@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página Original</title>
+</head>
+<body>
+  <h1>Página Original</h1>
+  <button id="btnNovaTela">Nova Tela Pequena</button>
+
+  <script>
+    const btnNovaTela = document.getElementById('btnNovaTela');
+    const novaTelaURL = 'nova-tela.html'; // Substitua por URL da nova tela
+
+    btnNovaTela.addEventListener('click', () => {
+      fetch(novaTelaURL)
+        .then(response => response.text())
+        .then(html => {
+          const novaTelaDiv = document.createElement('div');
+          novaTelaDiv.innerHTML = html;
+
+          document.documentElement.innerHTML = novaTelaDiv.innerHTML;
+          history.pushState({}, null, novaTelaURL);
+        });
+    });
+  </script>
+</body>
+</html>

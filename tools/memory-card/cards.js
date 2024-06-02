@@ -97,32 +97,130 @@ function update() {
     //if cards aren't the same, flip both back
     if (card1Selected.src != card2Selected.src) {
 
+        mostrarEsconderImagem();
+
+
+
+        playMusicError();
+
         card1Selected.src = "back.jpg";
         card2Selected.src = "back.jpg";
 
-        bodyElement.classList.add('viacartas');
         errors += 1;
 
-        // avisar os corretos
-        if (errors >= 5) {
-            
-            window.alert("teste");
-            errors = 0;
-        } 
     }
 
     else {
         accepts +=1;
         document.getElementById("accepts").innerText = accepts;
 
+        mostrarEsconderImagem();
+        playMusicCorrect();
+
+        aumentarEstrelas();
+
     }
 
     if (accepts == 3) {
-        window.alert("Parabéns");
+        playMusicCorrect();
+
+        setTimeout(finalizarGame, 2000)
+
     }
 
     card1Selected = null;
     card2Selected = null;
 }
 
+function mostrarEsconderImagem() {
+
+    if (card1Selected.src != card2Selected.src) {
+        const imagem_mistake = document.querySelector('.imagem_mistake');
+
+        
+        imagem_mistake.classList.toggle('mostrar_mistake');
+        setTimeout(() => {
+            imagem_mistake.classList.toggle('mostrar_mistake');
+        }, 2000); // Tempo em milissegundos (1000ms = 1 segundo)
+
+        
+    }
+
+    else {
+        const imagem_correct = document.querySelector('.imagem_correct');
+
+        setTimeout(() => {
+            imagem_correct.classList.toggle('mostrar_correct');
+        }, 2000); // Tempo em milissegundos (1000ms = 1 segundo)
+
+        imagem_correct.classList.toggle('mostrar_correct');
+    }
+
+}
+
+function playMusicError() {
+    const conditionMet = true; 
+  
+    if (conditionMet) {
+      const music = document.getElementById('myMusicError'); 
+
+      music.volume = 0.4;
+      music.play();
+    }
+  }
+
+
+function playMusicCorrect() {
+    const conditionMet = true;
+
+    if (conditionMet) {
+        const music = document.getElementById('myMusicCorrect'); 
+
+        music.volume = 0.3;
+        music.play();
+    }
+}
+
+
+
+
+function aumentarEstrelas() {
+    const containerEstrelas = document.getElementById('base_star');
+    const EstrelasVoid = document.getElementById('void_star');
+
+    let numeroStar = 1;
+    
+    const novaImagem = document.createElement('img');
+    novaImagem.src = `star.webp`; 
+    novaImagem.alt = `Imagem ${numeroStar}`;
+    containerEstrelas.appendChild(novaImagem);
+
+    containerEstrelas.removeChild(EstrelasVoid);
+
+    containerEstrelas.insertBefore(novaImagem, containerEstrelas.firstChild);
+    
+
+    numeroStar++;
+};
+
+
+function finalizarGame() {
+    const novaTelaURL = 'finish.html'; // Substitua por URL da nova tela
+
+    
+    fetch(novaTelaURL)
+        .then(response => response.text())
+        .then(html => {
+          const novaTelaDiv = document.createElement('div');
+          novaTelaDiv.innerHTML = html;
+
+          document.documentElement.innerHTML = novaTelaDiv.innerHTML;
+          history.pushState({}, null, novaTelaURL);
+        });
+    
+}
+
+var confettiSettings = { target: 'my-canvas' };
+var confetti = new ConfettiGenerator(confettiSettings);
+confetti.render();
 

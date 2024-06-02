@@ -15,8 +15,26 @@
 
 
     <body>
-        <h2>Acertos: <span id="accepts"> 0 </span> </h2> 
+        <nav>
+            <ul id="base_star">
+                <img id="void_star" src="./Design sem nome(1).png" alt="1">
+                <img id="void_star" src="./Design sem nome(1).png" alt="2">
+                <img id="void_star" src="./Design sem nome(1).png" alt="3">
+            </ul>
+        </nav>
+        <span id="accepts"> 0 </span> 
         <div id="board"></div>
-        <img id="seta" src="./seta.webp" alt="">
+        <div class="container">
+            <img src="./x.png" alt="Imagem" class="imagem_mistake">
+            <img src="./correct.png" alt="Imagem" class="imagem_correct">
+        </div>
+        <audio  id="myMusicError" controls >
+            <source   src="./duolingo-wrong.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio  id="myMusicCorrect" controls >
+            <source   src="./duolingo-correct.mp3" type="audio/mpeg">
+        </audio>
+
     </body>
 </html>
