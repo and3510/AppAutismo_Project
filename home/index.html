@@ -4,23 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-
+            <button class="transition-all" id="toggleThemeButton"> <img src="../assets/settings-icon.png" alt=""></button>      
     </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    <section>
+    <audio id="som" src="../assets/mouse-click-sound.mp3" hidden></audio>
 
+    <nav id="sidebar">
+        <ul>
+            <li><button id="button-fontes">Fonte</button></li>
+        </ul>                                               
+    </nav>
+
+    <nav id="font-sidebar">
+        <ul>
+            <li>
+                <button id="id_20">20</button>
+            </li>
+            <li>
+                <button id="id_25">25</button>
+            </li>
+            <li>
+                <button id="id_30">30</button>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- <nav id="theme-sidebar">
+        <ul>
+            <li>
+                <button id="id_black">Escuro</button>
+            </li>
+        </ul>
+    </nav>
+
+    -->
+
+    <section id="games">
+            <a href="../tools/memory-card/index.html"> <img src="../assets/icone-memorycard.png" alt=""> <br> Jogo da Memoria</a>
     </section>
 
+    
 
-    <section>
 
-    </section>
 
-    <footer>
-
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

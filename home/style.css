@@ -1,0 +1,297 @@
+p {
+    font-size: 17px;
+    margin-left: 30px;
+    cursor: default;
+}
+
+body {
+    height: 100%;
+    overflow: hidden
+}
+
+header {
+    display: flex;
+    justify-content:flex-end;
+    width: 100%;
+    height: 55px;
+}
+
+header button {
+    padding-bottom: 20px;
+    border-radius: 35px;
+    border: 1px solid;
+    background-color: red;
+    transition: 0.2s;
+}
+
+header button:hover {
+    background-color: rgb(247, 130, 130);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header img {
+    border: none;
+    border-radius: 25px;
+    width: 35px;
+    margin-bottom: -16px;
+    padding: 7px;
+    transition: 0.75s;
+}
+
+#games {
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+
+
+#games img {
+    width: 300px;
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 10px;
+    border:  3px solid #222;
+    
+}
+
+#games img:hover {
+    width: 320px;
+    box-shadow: 6px 3px 35px  #222;
+    padding: 20px;
+    background-color: rgb(26, 127, 185);
+}
+
+#games a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+.fonte1 a {
+    font-size: 20px;
+}
+
+
+.fonte1 #games img  {
+    width: 325px;
+}
+
+.fonte1 #games img:hover  {
+    width: 330px;
+}
+
+.fonte2 a {
+    font-size: 25px;
+}
+
+
+.fonte2 #games img  {
+    width: 335px;
+}
+
+.fonte2 #games img:hover  {
+    width: 345px;
+}
+
+
+.fonte3 a {
+    font-size: 30px;
+}
+
+
+.fonte3 #games img  {
+    width: 350px;
+}
+
+.fonte3 #games img:hover  {
+    width: 365px;
+}
+
+
+nav {
+    background-color: transparent;
+    width: 10%;
+    height: 100vh;
+    position: absolute;
+    top: -5px;
+    right: -200px;
+    transition: right 1s ease;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    padding: 20px;
+    padding-right: 0px;
+}
+
+nav li button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    border-radius: 25px;
+    padding: 3px;
+    width: 100px;
+    border: 1px solid #222;
+    transition: 0.2s;
+    background-color: rgb(17, 69, 182);
+    font-weight: 700;
+    
+}
+
+nav li button:hover {
+    background-color: rgb(89, 133, 228);
+    cursor: pointer;
+}
+
+nav {
+    /* ... outros estilos ... */
+    position: absolute; /* Mantenha o posicionamento absoluto */
+    top: -5px;
+    /* Remova a propriedade left: -250px; */
+    transition: right 1s ease;
+}
+
+nav.active {
+    /* ... outros estilos para o menu ativo ... */
+    right: 75px; /* Exiba o menu na esquerda da tela */
+    top: -5px
+}
+
+
+#font-sidebar {
+    background-color: transparent;
+    width: 10%;
+    height: 100vh;
+    position: absolute;
+    top: 50px;
+    transition: top 1s ease;
+    display: flex;
+}
+
+#font-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#font-sidebar li {
+    padding: 20px;
+    margin-bottom: -20px;
+    padding-right: 0px;
+}
+
+#font-sidebar li button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    border-radius: 25px;
+    padding: 3px;
+    width: 100px;
+    border: 1px solid #222;
+    transition: 0.2s;
+    background-color: rgb(194, 194, 194);
+    background-color: rgb(1, 214, 54);
+    
+}
+
+#font-sidebar li button:hover {
+    background-color: rgb(116, 228, 144);
+    cursor: pointer;
+}
+
+#font-sidebar {
+    /* ... outros estilos ... */
+    position: absolute; /* Mantenha o posicionamento absoluto */
+    top: -120px;
+    /* Remova a propriedade left: -250px; */
+    transition: top 1s ease;
+}
+
+#font-sidebar.active {
+    /* ... outros estilos para o menu ativo ... */ /* Exiba o menu na esquerda da tela */
+    top: 50px;
+}
+
+
+#theme-sidebar {
+    background-color: transparent;
+    width: 10%;
+    height: 100vh;
+    position: absolute;
+    top: 50px;
+    transition: top 1s ease;
+    display: flex;
+}
+
+#theme-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#theme-sidebar li {
+    padding: 20px;
+    margin-bottom: -20px;
+    padding-right: 0px;
+}
+
+#theme-sidebar li button {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    border-radius: 25px;
+    padding: 3px;
+    width: 100px;
+    border: 1px solid #222;
+    transition: 0.2s;
+    background-color: gray;
+    
+}
+
+#theme-sidebar li button:hover {
+    background-color: rgb(1, 214, 54);
+    cursor: pointer;
+}
+
+#theme-sidebar {
+    /* ... outros estilos ... */
+    position: absolute; /* Mantenha o posicionamento absoluto */
+    top: -120px;
+    /* Remova a propriedade left: -250px; */
+    transition: top 1s ease;
+}
+
+#theme-sidebar.active {
+    /* ... outros estilos para o menu ativo ... */ /* Exiba o menu na esquerda da tela */
+    top: 50px;
+    right: 65px
+}
+
+
+.black {
+    background-color: #222;
+    color: aliceblue;
+}
+
+.black #games img {
+    box-shadow: 6px 3px 25px #ffffff;
+}
+
+
+
