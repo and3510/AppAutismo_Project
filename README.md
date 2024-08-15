@@ -13,27 +13,30 @@
 
 
 * [Descrição do Projeto](#descrição-do-projeto)
-* [Status do Projeto](#status-do-Projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
-* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
-* [Licença](#licença)
 * [Conclusão](#conclusão)
 
 
 ## Descrição do Projeto
 
+Objetivo Geral:
+O projeto busca desenvolver soluções eficazes para o aprendizado de crianças autistas, utilizando ferramentas digitais que facilitem e potencializem o desenvolvimento de habilidades essenciais.
+
+Público-Alvo:
+O aplicativo é voltado para crianças com Transtorno do Espectro Autista (TEA) na faixa etária de 4 a 6 anos, uma fase crucial para o desenvolvimento cognitivo, motor e social.
+
+Interface do Aplicativo:
+O aplicativo contará com um catálogo de mini-jogos, onde cada jogo oferece uma jornada que vai do nível fácil ao difícil. Esses jogos são desenhados para atender às necessidades específicas das crianças com TEA, promovendo um aprendizado gradual e adaptado às capacidades individuais de cada usuário.
 
 ### Ideias para o projeto sobre autismo 
 --- 
 - #### Aplicativo para o desenvolvimento de habilidades de crianças com TEA.
 
     ##### Anotações:
-    - Título: Capacidade de Aprendizagem usando aplicativos móveis para autistas
+    - Título: Capacidade de Aprendizagem usando ferramentas digitais para autistas
     - Objetivo Geral: Buscar soluções para o aprendizado do autista 
-
     - Público Alvo: crianças entre 4 e 6 anos 
 
     ##### Criação da Conta:
