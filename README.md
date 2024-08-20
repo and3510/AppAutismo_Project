@@ -59,7 +59,7 @@ Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual ser
 
 ----
 
-#### Demostração da Aplicação
+#### Demostração da Aplicação:
 
 ### Assista aqui ↓
 
@@ -76,9 +76,15 @@ Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual ser
 2- ``` Abrir no navegador pela IDEA ```
 
 
-## Tecnologias utilizadas:
+## Tecnologias utilizadas
 - JavaScript 
 - HTML5
 - CSS3
 - Vscode
+
+## Conclusão
+
+O projeto desenvolve um aplicativo interativo para crianças com TEA, focado no desenvolvimento cognitivo e social por meio de mini-jogos adaptativos. A interface, que utiliza JavaScript, HTML5 e CSS3, oferece recursos personalizáveis e estímulos visuais e sonoros, promovendo um aprendizado inclusivo e eficaz.
+
+
 
