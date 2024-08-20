@@ -65,7 +65,8 @@ Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual ser
 
 ![GIF animado](./images/video.gif)
 
-[![Assista ao vídeo](./images/tela_inicial_fontes.png)](./images/video.mp4)
+<img src="./images/video.gif" alt="GIF animado" width="600"/>
+
 
 ## Acesso ao Projeto
 
