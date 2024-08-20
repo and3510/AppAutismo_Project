@@ -61,9 +61,8 @@ Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual ser
 
 #### Demostração da Aplicação
 
-<video width="500" height="240" controls autoplay>
-  <source src="./images/video.mp4" type="video/mp4">
-</video>
+
+[Assista ao vídeo](./images/video.mp4)
 
 ## Acesso ao Projeto
 
@@ -74,11 +73,7 @@ Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual ser
 2- ``` Abrir no navegador pela IDEA ```
 
 
-
-
-
-
-## Ferramentas:
+## Tecnologias utilizadas:
 - JavaScript 
 - HTML5
 - CSS3
