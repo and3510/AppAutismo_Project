@@ -35,13 +35,21 @@ O aplicativo contará com um catálogo de mini-jogos, onde cada jogo oferece uma
 
 Na Plataforma, a tela inicial da aplicação possui um minijogo "jogo da memoria" e um menu lateral que permite alterar o tamanho da fonte, bem como o da imagem.
 
+<div align="center">
+
 <img src="./images/tela_inicial_fontes.png" alt="Descrição da Imagem" width="500">
+
+</div>
 
 ----
 
 Ao clicar no minijogo, o usuário é transportado para a página do Jogo da Memória. O jogo inicia revelando as posições dos cartões com animais. Para pontuação, foi adicionado 3 estrelas vazias, como estimulo para ganhar estrelas.
 
+<div align="center">
+
 <img src="./images/jogo_inicial_free.png" alt="Descrição da Imagem" width="500">
+
+</div>
 
 <br>
 
@@ -55,7 +63,11 @@ Em caso da resposta incorreta, haverá uma indicação visual e sonora.
 
 Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual será exibido o total de estrelas ganhadas e um comentário de "Parabéns" para o usuário, como um estímulo visual e "feedback". 
 
+<div align="center">
+  
 <img src="./images/jogo_finish.png" alt="Descrição da Imagem" width="500">
+
+</div>
 
 ----
 
@@ -63,8 +75,12 @@ Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual ser
 
 ### Assista aqui ↓
 
+<div align="center">
 
 <img src="./images/video.gif" alt="GIF animado" width="525"/>
+
+
+</div>
 
 
 ## Acesso ao Projeto
