@@ -73,7 +73,7 @@ Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual ser
 
 1- ```git clone  https://github.com/and3510/Projeto_App_Autismo.git```
 
-2- ``` Abrir no navegador pela IDEA ```
+2- ``` Abrir o arquivo "./home/idex.html" no navegador pela IDEA ```
 
 
 ## Tecnologias utilizadas
