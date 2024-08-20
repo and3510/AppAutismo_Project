@@ -61,10 +61,11 @@ Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual ser
 
 #### Demostração da Aplicação
 
-Assista aqui ↓
+### Assista aqui ↓
+
+![GIF animado](./images/video.gif)
 
 [![Assista ao vídeo](./images/tela_inicial_fontes.png)](./images/video.mp4)
-
 
 ## Acesso ao Projeto
 
