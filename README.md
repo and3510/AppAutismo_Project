@@ -1,4 +1,4 @@
-<h1 align="center"> Platafroma de jogos TEA</h1>
+<h1 align="center"> Plataforma de jogos TEA</h1>
 
 
 <div align="center">
@@ -30,65 +30,57 @@ O aplicativo é voltado para crianças com Transtorno do Espectro Autista (TEA) 
 Interface do Aplicativo:
 O aplicativo contará com um catálogo de mini-jogos, onde cada jogo oferece uma jornada que vai do nível fácil ao difícil. Esses jogos são desenhados para atender às necessidades específicas das crianças com TEA, promovendo um aprendizado gradual e adaptado às capacidades individuais de cada usuário.
 
-### Ideias para o projeto sobre autismo 
---- 
-- #### Aplicativo para o desenvolvimento de habilidades de crianças com TEA.
 
-    ##### Anotações:
-    - Título: Capacidade de Aprendizagem usando ferramentas digitais para autistas
-    - Objetivo Geral: Buscar soluções para o aprendizado do autista 
-    - Público Alvo: crianças entre 4 e 6 anos 
+## Funcionalidades e Demonstração da Aplicação
 
-    ##### Criação da Conta:
-    1. Nickname(criança).
-    2. Email(adulto).
-    3. Senha(adulto).
-    4. Ícone do personagem.
-    
-    ##### Interface do aplicativo:
-    1. Interface de ***cadastro*** e ***login***
-    2. Menu Principal → Com o ***ícone do personagem***, ***estatísticas de desempenho*** da criança com TEA.
-    3. Catalogo de jogos → ***mini-jogos*** que em cada um tem uma jornada do fácil até o difícil.
-     
-    ##### Adições no Aplicativo:
-    1. Mini-games → Ter diferentes jogos para o aprendizado, como: Comunicação, Habilidades motoras, Cognição e etc... 
-    2. Gamificação → Para motivar e ensinar os usuários.
-    3. Aprendizado de Maquina → Com intuito de ser adequar <br>  ao usuário.
-    
-    ##### Machine Learning:
-    1. Através de estatísticas montadas a partir de dados anteriores e selecionar melhor execício naquele momento.
-    2. Os algorítimos de IA estarão em uma api de onde o aplicativo irá puxar.
+Na Plataforma, a tela inicial da aplicação possui um minijogo "jogo da memoria" e um menu lateral que permite alterar o tamanho da fonte, bem como o da imagem.
 
-    ##### Ferramentas:
-    - JavaScript (Linguagem).
-    - TypeScript (Linguagem).
-    - React Native (Framework).
+<img src="./images/tela_inicial_fontes.png" alt="Descrição da Imagem" width="500">
 
-    ##### Princípios do IHC:
-    ---
-    1. A ***Usabilidade*** é essencial para garantir que o produto 
-    ou serviço atenda às necessidades do usuário e que a 
-    interação com o produto ou serviço seja eficiente e 
-    eficaz.  
-    ---
-    2. A ***Acessibilidade*** é importante para garantir que o 
-    produto ou serviço seja inclusivo e possa ser usado por 
-    todos os usuários.
-    ---
-    3. A ***Utilidade*** é importante para garantir que o 
-    produto ou serviço seja relevante e valioso 
-    para o usuário. 
-    ---
-    4. A ***Desirability*** é importante para garantir que o 
-    produto ou serviço seja agradável e atraente 
-    para o usuário.
-    ----
+----
 
-    ##### Tipos de jogos para o aprendizado:
-    - Memorização:
-    1. Quebra Cabeças;
-    2. Imagens Coisas/Animais;
-    3. Jogos de Encaixe.
-    - Concentração:
-    1. Jogos Sonoros;
-    2. "Jogo do quadrado".
+Ao clicar no minijogo, o usuário é transportado para a página do Jogo da Memória. O jogo inicia revelando as posições dos cartões com animais. Para pontuação, foi adicionado 3 estrelas vazias, como estimulo para ganhar estrelas.
+
+<img src="./images/jogo_inicial_free.png" alt="Descrição da Imagem" width="500">
+
+<br>
+
+Após a cronometragem de 4 segundos, todos os cartões são escondidos, para que a pessoa com TEA possa escolher um par de cartões iguais.
+
+Ao acertar, o usuário recebe um estímulo positivo visual e sonoro, além de ganhar uma estrela.
+
+Em caso da resposta incorreta, haverá uma indicação visual e sonora.
+
+---
+
+Se houver ganho das 3 estrelas, o usuário é direcionado à pagina, na qual será exibido o total de estrelas ganhadas e um comentário de "Parabéns" para o usuário, como um estímulo visual e "feedback". 
+
+<img src="./images/jogo_finish.png" alt="Descrição da Imagem" width="500">
+
+----
+
+#### Demostração da Aplicação
+
+<video width="500" height="240" controls autoplay>
+  <source src="./images/video.mp4" type="video/mp4">
+</video>
+
+## Acesso ao Projeto
+
+#### *Passo a Passo:*
+
+1- ```git clone  https://github.com/and3510/Projeto_App_Autismo.git```
+
+2- ``` Abrir no navegador pela IDEA ```
+
+
+
+
+
+
+## Ferramentas:
+- JavaScript 
+- HTML5
+- CSS3
+- Vscode
+
