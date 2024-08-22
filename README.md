@@ -11,6 +11,7 @@
 
 </div>
 
+## Sumário
 
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
